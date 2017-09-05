@@ -48,12 +48,12 @@ function logincheck($dbconnection){
 		$usersession = $_SESSION['username'];
 		
 		if($sql = $dbconnection->prepare("SELECT users.users_name
-											 FROM users 
-											 WHERE 
-											 users.users_delete = 0
-								            AND
-								            users.users_id = ? 
-											 LIMIT 1")){
+					 FROM users 
+					 WHERE 
+					 users.users_delete = 0
+					AND
+					users.users_id = ? 
+					 LIMIT 1")){
 			$sql->bind_param('i', $idsession);
 			$sql->execute();
 			$sql->store_result();
