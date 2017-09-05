@@ -1,6 +1,6 @@
 # Apikoliter
 
-Apikoliter adalah aplikasi web berbasis PHP untuk manajemen server berbasis linux. Idenya mirip seperti webmin + ansible, dimana kita bisa melakukan jobs ansible yang mampu mengubah konfigurasi atau menginstall aplikasi pada server layaknya pada webmin dengan klik. Akses login pada apikoliter dibagi menjadi 2 pengguna, dengan fungsi manager dan sysadmin.
+Apikoliter adalah aplikasi web berbasis PHP untuk manajemen server berbasis linux. Idenya mirip seperti webmin + ansible, dimana kita bisa melakukan perubahan file konfigurasi layaknya ansible atau menginstall aplikasi pada server layaknya pada webmin dengan klik. Akses login pada apikoliter dibagi menjadi 2 pengguna, dengan fungsi manager dan sysadmin.
 
 ## Bagaimana cara menggunakannya ?
 1. Clone/download repositori ini, dan kemudian letakkan di direktori htdocs pada webserver.
